@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 140px;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.createButton {
+  background-color: #2b702d;
+  color: white;
+  padding: 6px 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+hr {
+  margin-top: 40px;
+  width: 100%;
+}
+.box{
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 50px;
+  margin: 20px 100px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px 200px;
+}
+
+.inputContainer input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.addButton {
+  margin: 10px;
+  background-color: #007BFF;
+}
+
+.addButton:hover {
+  background-color: #0069d9;
+}
+
+.formSection {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.formEditor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+  width: 50%;
+}
+.formEditor input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
